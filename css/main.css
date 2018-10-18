@@ -1,0 +1,411 @@
+body/*setting the ebtere body padding,margin,font,background*/
+{
+	padding: 0px;
+	margin: 0px;
+	font-family:"Century-Gothic",verdana,sans-serif;
+	 background-color:#f4f4f4;
+}
+/*css for the navigation menu from line 11-28*/
+.wrap
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+ul/*css for all unorddered lists in the project*/
+{
+	padding: 0px;
+	margin: 0px;
+}
+/*css for all headers in the project*/
+header{
+  background:#6495ed;
+  color:#ffffff;
+  padding-top:40px;
+  min-height:90px;
+  border-bottom:#b0c4de 3px solid;
+}
+/*css for the header and the currently opened page*/
+header .highlight, header .current a
+{
+  color:#e8491d;
+  font-weight:bold;
+}
+a/*ensures all the anchor links are not underlined*/
+{
+	text-decoration: none;
+}
+h1/*ensures all the h1 links are not underlined*/
+{
+	text-decoration: none;
+}
+p/*ensures all the p links are not underlined*/
+{
+	text-decoration: none;
+	padding: 1%;
+}
+header a/*css for all anchor link headers */
+{
+  
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+/*css for top navigation header line 12-14*/
+header#topnav
+{
+	float: left;
+}/*css for top navigation header h1 for line 13*/
+header #topnav h1
+{
+  margin:0;
+} /*css for navigation headrs */
+header nav
+{
+  float:right;
+  margin-top:10px;
+}/* css for navigation lists*/
+header li
+{
+  float:left;
+  display:inline;
+  padding: 0 20px;
+}
+header a:hover{
+  color:white;
+  font-weight:bold;
+}
+a:active/*color for the link when cliked*/
+{
+	background-color: green;
+	color: orange;
+}
+a:visited/*color for the link when opened*/
+{
+	background-color: blue;
+	color: black;
+}
+/*.wrap input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}*/
+/*@media screen and (max-width: 600px) {
+    .wrap a, .wrap input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }*/
+ .wrap input[type=text] {
+        border: 1px solid red;
+    }
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 550px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+section {
+	width: 29%;
+	float: left;
+	margin:2% 2%;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.clear {
+	clear: both;
+}
+video{
+	float: left;
+	margin:0 auto;
+	width:35%;
+	height: auto;
+	padding:4%;
+
+}
+aside{
+	float: right;
+	margin:0 auto;
+	width:30%;
+	height: auto;
+	padding:4%;
+}ul.trends li {
+	padding-left: 3%;
+	list-style-type: none;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+footer {
+	background: #6495ed;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.95;
+}
+footer p, footer h3{
+	color: #FFF;
+}
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+ul.social li {
+	display:inline;
+}
+
+ul.social li img{
+	height: 50px;
+	margin-right: 5px;
+}
+
+footer.second{
+	border-top:1px solid #4D4E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity:0.95;
+}
+/* Main-col */
+article#main-col{
+  float:left;
+  width:100%;
+}
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+.container1{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  float: left;
+}
+}
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+.last-section
+{
+	
+	border-top: 2px solid yellow;
+}
+.first-section
+{
+	
+	border-top: 2px solid blue;
+	border-bottom: 1px solid grey;
+}
+.mid
+{
+	border-top: 2px solid red;
+}
+.heading1
+{
+	text-align: center;
+	padding-top: 2px;
+	color: green;
+}
+.row1
+{
+	margin-top: 10px;
+	padding-left: 5px
+	border-top:2px solid blue;
+	width: 100%;
+	background-color: grey;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: white; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 50%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: white; /* Add a hover color */
+}
+
+/*------------------------MEDIA code begins here !!!!---------*/
+@media screen and (max-width: 478px) {
+	body {
+		position:absolute;
+	}
+}
+
+@media screen and (max-width: 740px)  {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top:60px;
+		width: 50%
+		border-radius: 2px 0 2px 2px;
+	}
+
+
+nav li {
+	text-align: center;
+	width: 100%;
+	padding: 10px 0;
+	margin:0;
+
+}
+
+nav:hover ul {
+	display: block;
+}
+
+section {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+video {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+aside {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*......media ends here*/
